@@ -1,0 +1,26 @@
+{
+  "keyword_to_category": {
+    "hematology and cell": "hematology",
+    "hematology": "hematology",
+    "coagulation": "coagulation",
+    "chemistry": "chemistry",
+    "lipid": "lipid",
+    "metabolism": "metabolism",
+    "thyroid": "thyroid",
+    "liver": "liver",
+    "kidney": "kidney",
+    "renal": "kidney",
+    "electrolyte": "electrolytes",
+    "vitamin": "vitamins",
+    "inflammation": "inflammation",
+    "hormone": "hormones",
+    "cardiac": "cardiac",
+    "pancrea": "pancreas",
+    "immunolog": "immunology",
+    "serology": "serology",
+    "urinalysis": "urinalysis",
+    "toxicology": "toxicology",
+    "allergy": "allergy",
+    "microbiology": "other"
+  }
+}

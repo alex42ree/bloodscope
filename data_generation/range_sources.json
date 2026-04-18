@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "name": "FMU Blood Tracking Form",
+      "url": "http://www.functionalmedicineuniversity.com/FMU%20Blood%20Tracking%20Form.pdf",
+      "type": "pdf",
+      "priority": 1,
+      "notes": "Functional Medicine University adult optimal ranges for ~50 analytes, sex-specific for some."
+    },
+    {
+      "name": "Rupa Health Optimal Ranges",
+      "url": "https://www.rupahealth.com/optimal-ranges",
+      "type": "html",
+      "priority": 2,
+      "notes": "PubMed-cited optimal ranges for many biomarkers. Not age/sex stratified."
+    },
+    {
+      "name": "SiPhox Health Normal vs Optimal",
+      "url": "https://siphoxhealth.com/articles/whats-the-difference-between-normal-and-optimal-blood-ranges",
+      "type": "html",
+      "priority": 3,
+      "notes": "Blog article with a few key optimal ranges (glucose, HbA1c, insulin, triglycerides)."
+    }
+  ]
+}

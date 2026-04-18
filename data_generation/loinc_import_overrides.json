@@ -1,0 +1,300 @@
+{
+  "_comment": "Per-LOINC overrides for init_biomarkers: id, category, standard_unit, decimal_places. Keys are LOINC_NUM. standard_unit when first EXAMPLE_UCUM_UNITS token differs from BloodScope convention; decimal_places when not default 2.",
+  "overrides": {
+    "26453-1": {
+      "standard_unit": "x10^6/µL"
+    },
+    "6690-2": {
+      "standard_unit": "x10^3/µL"
+    },
+    "718-7": {
+      "decimal_places": 1
+    },
+    "4544-3": {
+      "decimal_places": 1
+    },
+    "777-3": {
+      "standard_unit": "x10^3/µL",
+      "decimal_places": 0
+    },
+    "787-2": {
+      "decimal_places": 1
+    },
+    "785-6": {
+      "decimal_places": 1
+    },
+    "786-4": {
+      "decimal_places": 1
+    },
+    "788-0": {
+      "decimal_places": 1
+    },
+    "32623-1": {
+      "decimal_places": 1
+    },
+    "770-8": {
+      "decimal_places": 1
+    },
+    "751-8": {
+      "standard_unit": "x10^3/µL"
+    },
+    "736-9": {
+      "decimal_places": 1
+    },
+    "731-0": {
+      "standard_unit": "x10^3/µL"
+    },
+    "5905-5": {
+      "decimal_places": 1
+    },
+    "742-7": {
+      "standard_unit": "x10^3/µL"
+    },
+    "713-8": {
+      "decimal_places": 1
+    },
+    "711-2": {
+      "standard_unit": "x10^3/µL"
+    },
+    "706-2": {
+      "decimal_places": 1
+    },
+    "704-7": {
+      "standard_unit": "x10^3/µL"
+    },
+    "30341-2": {
+      "decimal_places": 0
+    },
+    "2093-3": {
+      "decimal_places": 0
+    },
+    "2089-1": {
+      "decimal_places": 0
+    },
+    "2085-9": {
+      "decimal_places": 0
+    },
+    "2571-8": {
+      "decimal_places": 0
+    },
+    "13457-7": {
+      "decimal_places": 0
+    },
+    "43396-1": {
+      "decimal_places": 0
+    },
+    "9830-1": {
+      "standard_unit": "ratio",
+      "decimal_places": 1
+    },
+    "1558-6": {
+      "decimal_places": 0
+    },
+    "4548-4": {
+      "decimal_places": 1
+    },
+    "20448-7": {
+      "standard_unit": "µIU/mL",
+      "decimal_places": 1
+    },
+    "43150-2": {
+      "standard_unit": "index",
+      "decimal_places": 1
+    },
+    "1556-0": {
+      "standard_unit": "µmol/L",
+      "decimal_places": 0
+    },
+    "1742-6": {
+      "decimal_places": 0
+    },
+    "1920-8": {
+      "decimal_places": 0
+    },
+    "2324-2": {
+      "decimal_places": 0
+    },
+    "6768-6": {
+      "decimal_places": 0
+    },
+    "2532-0": {
+      "decimal_places": 0
+    },
+    "1751-7": {
+      "decimal_places": 1
+    },
+    "3094-0": {
+      "decimal_places": 0
+    },
+    "3084-1": {
+      "decimal_places": 1
+    },
+    "33914-3": {
+      "standard_unit": "mL/min/1.73m²",
+      "decimal_places": 0
+    },
+    "2885-2": {
+      "decimal_places": 1
+    },
+    "3097-3": {
+      "standard_unit": "ratio",
+      "decimal_places": 0
+    },
+    "3016-3": {
+      "standard_unit": "mIU/L"
+    },
+    "3053-6": {
+      "decimal_places": 0
+    },
+    "3026-2": {
+      "standard_unit": "µg/dL",
+      "decimal_places": 1
+    },
+    "8099-4": {
+      "standard_unit": "IU/mL",
+      "decimal_places": 1
+    },
+    "2951-2": {
+      "standard_unit": "mEq/L",
+      "decimal_places": 0
+    },
+    "2823-3": {
+      "standard_unit": "mEq/L",
+      "decimal_places": 1
+    },
+    "2075-0": {
+      "standard_unit": "mEq/L",
+      "decimal_places": 0
+    },
+    "17861-6": {
+      "decimal_places": 1
+    },
+    "19123-9": {
+      "decimal_places": 1
+    },
+    "2777-1": {
+      "decimal_places": 1
+    },
+    "2498-4": {
+      "standard_unit": "µg/dL",
+      "decimal_places": 0
+    },
+    "2276-4": {
+      "decimal_places": 1
+    },
+    "2500-7": {
+      "standard_unit": "µg/dL",
+      "decimal_places": 0
+    },
+    "2502-3": {
+      "decimal_places": 0
+    },
+    "1989-3": {
+      "decimal_places": 1
+    },
+    "2132-9": {
+      "decimal_places": 0
+    },
+    "2284-8": {
+      "decimal_places": 1
+    },
+    "2923-1": {
+      "standard_unit": "µg/mL"
+    },
+    "1823-4": {
+      "decimal_places": 1
+    },
+    "1988-5": {
+      "decimal_places": 1
+    },
+    "3255-7": {
+      "decimal_places": 0
+    },
+    "13965-9": {
+      "standard_unit": "µmol/L",
+      "decimal_places": 1
+    },
+    "26881-3": {
+      "decimal_places": 1
+    },
+    "2986-8": {
+      "decimal_places": 0
+    },
+    "2991-8": {
+      "decimal_places": 1
+    },
+    "2243-4": {
+      "decimal_places": 1
+    },
+    "2143-6": {
+      "standard_unit": "µg/dL",
+      "decimal_places": 1
+    },
+    "2191-5": {
+      "standard_unit": "µg/dL",
+      "decimal_places": 0
+    },
+    "10501-5": {
+      "standard_unit": "mIU/mL",
+      "decimal_places": 1
+    },
+    "15067-2": {
+      "standard_unit": "mIU/mL",
+      "decimal_places": 1
+    },
+    "5902-2": {
+      "decimal_places": 1
+    },
+    "6301-6": {
+      "standard_unit": "ratio",
+      "decimal_places": 1
+    },
+    "3173-2": {
+      "decimal_places": 1
+    },
+    "48065-7": {
+      "standard_unit": "ng/mL",
+      "decimal_places": 0
+    },
+    "10839-9": {
+      "decimal_places": 3
+    },
+    "30934-4": {
+      "decimal_places": 0
+    },
+    "33762-6": {
+      "decimal_places": 0
+    },
+    "49551-5": {
+      "decimal_places": 1
+    },
+    "1798-8": {
+      "decimal_places": 0
+    },
+    "3040-3": {
+      "decimal_places": 0
+    },
+    "1834-1": {
+      "decimal_places": 1
+    },
+    "2458-8": {
+      "decimal_places": 0
+    },
+    "2465-3": {
+      "decimal_places": 0
+    },
+    "2472-9": {
+      "decimal_places": 0
+    },
+    "2601-3": {
+      "standard_unit": "µg/dL",
+      "decimal_places": 0
+    },
+    "5724-0": {
+      "decimal_places": 0
+    },
+    "4551-8": {
+      "decimal_places": 1
+    }
+  }
+}

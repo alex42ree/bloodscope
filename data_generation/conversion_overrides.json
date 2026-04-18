@@ -1,0 +1,198 @@
+{
+  "_comment": "Manual overrides for init_conversions.py. Entries here take precedence over auto-discovery.",
+  "skip": [
+    {
+      "biomarker_id": "homa_ir",
+      "reason": "Calculated index (insulin × glucose / 405), no unit conversion"
+    },
+    {
+      "biomarker_id": "d_dimer",
+      "reason": "FEU vs DDU reporting varies by assay, not a simple unit conversion"
+    }
+  ],
+  "extra_conversions": [
+    {
+      "biomarker_id": "glucose_fasting",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "D-Glucose",
+      "pubchem_cid": 5793
+    },
+    {
+      "biomarker_id": "glucose_postprandial",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "D-Glucose",
+      "pubchem_cid": 5793
+    },
+    {
+      "biomarker_id": "total_cholesterol",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Cholesterol",
+      "pubchem_cid": 5997
+    },
+    {
+      "biomarker_id": "ldl_cholesterol",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Cholesterol",
+      "pubchem_cid": 5997
+    },
+    {
+      "biomarker_id": "hdl_cholesterol",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Cholesterol",
+      "pubchem_cid": 5997
+    },
+    {
+      "biomarker_id": "vldl_cholesterol",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Cholesterol",
+      "pubchem_cid": 5997
+    },
+    {
+      "biomarker_id": "non_hdl_cholesterol",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Cholesterol",
+      "pubchem_cid": 5997
+    },
+    {
+      "biomarker_id": "triglycerides",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Triolein",
+      "pubchem_cid": 5497163
+    },
+    {
+      "biomarker_id": "creatinine",
+      "from_unit": "umol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Creatinine",
+      "pubchem_cid": 588
+    },
+    {
+      "biomarker_id": "uric_acid",
+      "from_unit": "umol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Uric acid",
+      "pubchem_cid": 1175
+    },
+    {
+      "biomarker_id": "total_bilirubin",
+      "from_unit": "umol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Bilirubin",
+      "pubchem_cid": 5280352
+    },
+    {
+      "biomarker_id": "direct_bilirubin",
+      "from_unit": "umol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Bilirubin",
+      "pubchem_cid": 5280352
+    },
+    {
+      "biomarker_id": "bun",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Urea",
+      "pubchem_cid": 1176,
+      "_note": "BUN factor = MW_urea / 2 (reports nitrogen only); handled via NLM API with nitrogen MW 28.014"
+    },
+    {
+      "biomarker_id": "calcium",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Calcium",
+      "pubchem_cid": 5460341
+    },
+    {
+      "biomarker_id": "magnesium",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Magnesium",
+      "pubchem_cid": 5462224
+    },
+    {
+      "biomarker_id": "phosphate",
+      "from_unit": "mmol/L",
+      "to_unit": "mg/dL",
+      "compound_name": "Phosphorus",
+      "pubchem_cid": 5462309
+    },
+    {
+      "biomarker_id": "iron",
+      "from_unit": "umol/L",
+      "to_unit": "ug/dL",
+      "compound_name": "Iron",
+      "pubchem_cid": 23925
+    },
+    {
+      "biomarker_id": "vitamin_d",
+      "from_unit": "nmol/L",
+      "to_unit": "ng/mL",
+      "compound_name": "Calcifediol",
+      "pubchem_cid": 5283731
+    },
+    {
+      "biomarker_id": "vitamin_b12",
+      "from_unit": "pmol/L",
+      "to_unit": "pg/mL",
+      "compound_name": "Cyanocobalamin",
+      "pubchem_cid": 44176380
+    },
+    {
+      "biomarker_id": "folate",
+      "from_unit": "nmol/L",
+      "to_unit": "ng/mL",
+      "compound_name": "Folic acid",
+      "pubchem_cid": 6037
+    },
+    {
+      "biomarker_id": "free_t4",
+      "from_unit": "pmol/L",
+      "to_unit": "ng/dL",
+      "compound_name": "Thyroxine",
+      "pubchem_cid": 853
+    },
+    {
+      "biomarker_id": "free_t3",
+      "from_unit": "pmol/L",
+      "to_unit": "pg/mL",
+      "compound_name": "Triiodothyronine",
+      "pubchem_cid": 5920
+    },
+    {
+      "biomarker_id": "total_t4",
+      "from_unit": "nmol/L",
+      "to_unit": "ug/dL",
+      "compound_name": "Thyroxine",
+      "pubchem_cid": 853
+    },
+    {
+      "biomarker_id": "total_t3",
+      "from_unit": "nmol/L",
+      "to_unit": "ng/dL",
+      "compound_name": "Triiodothyronine",
+      "pubchem_cid": 5920
+    },
+    {
+      "biomarker_id": "homocysteine",
+      "from_unit": "umol/L",
+      "to_unit": "mg/L",
+      "compound_name": "Homocysteine",
+      "pubchem_cid": 778
+    },
+    {
+      "biomarker_id": "cortisol",
+      "from_unit": "nmol/L",
+      "to_unit": "ug/dL",
+      "compound_name": "Hydrocortisone",
+      "pubchem_cid": 5754
+    }
+  ]
+}

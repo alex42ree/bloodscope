@@ -1,0 +1,12 @@
+{
+  "allowed_classes": [
+    "CHEM",
+    "HEM/BC",
+    "COAG",
+    "UA",
+    "SERO",
+    "ALLERGY",
+    "DRUG/TOX"
+  ],
+  "_comment": "LOINC CLASS allowlist for --all and --max-rows only. Rows whose CLASS is not listed are excluded before ranking or full export."
+}
